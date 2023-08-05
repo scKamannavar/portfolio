@@ -20,10 +20,10 @@ const navbar = () => {
             </div>
         </div>
         <div className = {navdrop ? 'px-4 pb-2 block ' : 'hidden  sm:flex pr-5'} >
-            <div className='text-white hover:bg-slate-600 rounded px-2 py-1 '>Skills</div>
+            <div className='text-white hover:bg-slate-600 rounded px-2 py-1 '>Home</div>
             <div className='text-white hover:bg-slate-600 rounded px-2 py-1 mt-1 sm:mt-0'>Projects</div>
+            <div className='text-white hover:bg-slate-600 rounded px-2 py-1 mt-1 sm:mt-0'>Sklls</div>
             <div className='text-white hover:bg-slate-600 rounded px-2 py-1 mt-1 sm:mt-0'>Contact</div>
-            <div className='text-white hover:bg-slate-600 rounded px-2 py-1 mt-1 sm:mt-0'>Home</div>
         </div>
     </div>
   )
