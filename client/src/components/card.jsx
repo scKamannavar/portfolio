@@ -11,13 +11,17 @@ const card = () => {
         <div className='text-2xl font-bold font-Outfit flex justify-center'>
             Website for Cartoon
         </div>
-        <div className='flex justify-center'>
+        <div className='flex justify-center font-Outfit p-2 text-center'>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore consequatur vitae perspiciatis sit dignissimos sapiente voluptatum molestiae doloribus sequi in?</p>
         </div>
-        <div className='flex justify-center text-white'>
+        <div className='flex justify-center text-white font-Outfit'>
             <div className='bg-slate-500 rounded-md p-1 m-1'>Html</div>
             <div className='bg-slate-500 rounded-md p-1 m-1'>Css</div>
             <div className='bg-slate-500 rounded-md p-1 m-1'>Js</div>
+        </div>
+        <div className='text-blue-300 flex justify-center font-Outfit'>
+          In Making <span className='  animate-pulse bg-green-600 w-3 h-3 ml-2 mt-2 relative rounded-full'></span>
+    
         </div>
       </div>
 
