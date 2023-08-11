@@ -1,4 +1,5 @@
 import React from 'react'
+import ScrollTo from '../constants/scrollTo'
 import { SocialIcon } from 'react-social-icons';
 // import {ReactLogo} from '../assets/react.svg'    
 
@@ -31,10 +32,10 @@ const footer = () => {
             </div>
         </div>
         <div className='flex flex-1 justify-center'>
-            <div className='px-4'>Home</div>
-            <div className='px-4'>About</div>
-            <div className='px-4'>Project</div>
-            <div className='px-4'>Contact</div>
+            <div className='px-4' onClick={()=>ScrollTo('#home')}>Home</div>
+            <div className='px-4' onClick={()=>ScrollTo('#about')}>About</div>
+            <div className='px-4' onClick={()=>ScrollTo('#projects')}>Project</div>
+            <div className='px-4' onClick={()=>ScrollTo('#contact')}>Contact</div>
         </div>
       </div>
 

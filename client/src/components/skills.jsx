@@ -10,6 +10,9 @@ const skills = () => {
     <section id='skills' ref={skills}>
 
     <div className='flex flex-col pt-20 bg-slate-800' >
+          <div className='flex text-4xl justify-center font-Outfit'>
+              <h1>My Skills</h1>
+          </div>
         <div className='flex flex-1 justify-around px-6'>
             <div className='flex h-40 items-center'><span className=' fill-slate-100'>
             <svg xmlns="http://www.w3.org/2000/svg" height="40px" color='black' viewBox="0 0 384 512"><path d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"/></svg>

@@ -29,6 +29,9 @@ const contact = () => {
       }
   return (
     <div className='bg-green-300 py-20 sm:px-11' id='contact'>
+    <div className='flex text-4xl justify-center font-Outfit'>
+      <h1>Contact Me</h1>
+    </div>
          
         <form className='flex flex-col h-full rounded overflow-hidden shadow-xl bg-black shadow-black m-4 p-6 sm:p-16' onSubmit={Submit} >
             <div class={ alertmes ? 'bg-blue-100 border-blue-600 border-2 text-blue-700 px-4  sm:mx-24 py-3 rounded relative ':'hidden' } role="alert">
