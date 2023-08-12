@@ -18,7 +18,7 @@ const contact = () => {
     }
     const Submit = (e)=>{
         e.preventDefault(); 
-        axios.post('http://localhost:3000/sendMessage',{
+        axios.post('https://portfolio-api-one-olive.vercel.app/sendMessage',{
           name, email, bodym
         }).then(res =>{
           console.log(res.data)

@@ -6,11 +6,19 @@ const MessageModel = require('./model/message');
 const app = express();
 
 app.use(cors(
+<<<<<<< HEAD
     // {
     //     origin : [""],
     //     method : ["POST", "GET"],
     //     credentials : true
     // }
+=======
+    {
+        origin : ["https://portfolio-sagarck.vercel.app"],
+        method : ["POST", "GET"],
+        credentials : true
+    }
+>>>>>>> fda2edc19181764b6167f64443740dee7bcee663
 ))
 app.use(express.json())
 
