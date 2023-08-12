@@ -6,11 +6,11 @@ const MessageModel = require('./model/message');
 const app = express();
 
 app.use(cors(
-    {
-        origin : [""],
-        method : ["POST", "GET"],
-        credentials : true
-    }
+    // {
+    //     origin : [""],
+    //     method : ["POST", "GET"],
+    //     credentials : true
+    // }
 ))
 app.use(express.json())
 
