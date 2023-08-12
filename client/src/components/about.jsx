@@ -14,13 +14,13 @@ const about = () => {
   return (
     <div id='about'>
       
-        <div ref={about} className='flex flex-col pt-20 sm:h-screen'>
+        <div ref={about} className='flex flex-col pt-20 sm:h-full '>
             <div className='flex  flex-2 justify-center hidden'>
                     <img className='h-40' src="https://img.freepik.com/free-vector/mysterious-mafia-man-smoking-cigarette_52683-34828.jpg?w=740&t=st=1691321727~exp=1691322327~hmac=a232d3d2a58ddfdde15bf151817cf1cd6a70d2752dec0cc715a9c6952248dd30" alt="" />
             </div>
             <div className='flex  flex-1 justify-center text-center px-4 sm:px-10'>
               <div className='font-Outfit text:md sm:text-lg flex flex-col pb-10'>                  
-                <div className='flex-1 text-left bg-slate-100 w-auto h-full p-4'>
+                <div className='flex-1 text-left bg-slate-100 w-auto h-full p-4 sm:px-72'>
                   <div className='flex text-4xl justify-center'>
                     <h1>About Me</h1>
                   </div>

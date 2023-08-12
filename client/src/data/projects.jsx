@@ -8,8 +8,8 @@ const projects = [
     },
     {
       id:3, name : 'E-commerce website',
-      description : 'Shop a world of heartfelt creativity! My E-Commerce project connects buyers with handcrafted gifts and cards from diverse artists  who have joined as sellers.',
-      status : 'in progress',
+      description : 'This E-Commerce project connects buyers with handcrafted gifts and cards from diverse artists  who have joined as sellers.',
+      status : 'In progress',
       technologies : ['JS/', 'ReactJs/', 'NodeJs/', 'TailwindCSS/', 'Express']
     },
     {
