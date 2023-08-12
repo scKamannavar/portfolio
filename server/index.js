@@ -7,7 +7,7 @@ const app = express();
 
 app.use(cors(
     {
-        origin : [""],
+        origin : ["https://portfolio-sagarck.vercel.app"],
         method : ["POST", "GET"],
         credentials : true
     }
