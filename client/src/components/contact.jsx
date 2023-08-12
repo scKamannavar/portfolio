@@ -7,24 +7,32 @@ const contact = () => {
     const [bodym, setBodym] = useState('')
     const [email, setEmail] = useState('')
 
+    const[alertContent, setAlertContent] = useState('')
+    const alert = (arg)=>{
+      setAlertContent(arg)
+      setAlertmes(true);
+      setTimeout(() => {
+        setAlertmes(false)
+      }, 4000);
+
+    }
     const Submit = (e)=>{
         e.preventDefault(); 
         axios.post('http://localhost:3000/sendMessage',{
           name, email, bodym
         }).then(res =>{
           console.log(res.data)
-          setAlertmes(true);
-        //   scrollTOSection('#contact')
           setBodym('')
           setEmail('')
           setName(' ')
+          alert('Message Recieved')
 
-          setTimeout(() => {
-            setAlertmes(false)
-          }, 4000);
 
         })
-        .catch(err => console.log(err)); 
+        .catch(err => {
+          console.log(err)
+          alert('something Went wrong, Please try again Later')
+        }); 
         
       }
   return (
@@ -35,8 +43,8 @@ const contact = () => {
          
         <form className='flex flex-col h-full rounded overflow-hidden shadow-xl bg-black shadow-black m-4 p-6 sm:p-16' onSubmit={Submit} >
             <div class={ alertmes ? 'bg-blue-100 border-blue-600 border-2 text-blue-700 px-4  sm:mx-24 py-3 rounded relative ':'hidden' } role="alert">
-                <strong class="font-bold">Hey there, Message Recieved!</strong>
-                <span class="block sm:inline">Will get back to you in no time.</span>
+                <strong class="font-bold">{alertContent}</strong>
+                {/* <span class="block sm:inline">Will get back to you in no time.</span> */}
             </div>
             <div className='flex flex-col sm:flex-row sm:px-20'>
                 <div className='flex flex-1 justify-center flex-col p-2'>
@@ -51,7 +59,7 @@ const contact = () => {
             </div>
             <div className='flex justify-center pb-6 border-b-2 '>
                 {/* <a href={`mailto:${email}? body:${body}`} target='_blank' >Send Message</a> */}
-                <input type="submit"value="Send Message"  className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transition ease-in-out delay-150 hover:-translate-x-4 hover:-translate-y-4'/>
+                <input type="submit"value="Send Message"  className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transition ease-in-out delay-150 '/>
             </div>
             <div className='text-white p-8 text-left  font-Outfit flex justify-center'>
                 <div className='pr-4 text-[#00cdda] text-lg'>

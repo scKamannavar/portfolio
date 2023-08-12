@@ -13,7 +13,7 @@ const hero = () => {
   return (
     <div id='home'>
        <div className=" flex flex-col sm:flex-row-reverse pt-20 w-fill h-screen sm:h-screen text-white bg-[url('https://images.pexels.com/photos/6956433/pexels-photo-6956433.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] bg-cover bg-no-repeat" >
-            <div className='flex-6'>
+            <div className='flex-6 sm:flex-1'>
                     <div className='flex h-full justify-center items-center'>
                             <div><img className='w-auto h-40 sm:h-auto duration-700 hover:-translate-x-4 relative z-1 animate__animated animate__slideInDown sm:animate__slideInLeft' src={Avatar} alt="Avata" /></div>
                     </div>

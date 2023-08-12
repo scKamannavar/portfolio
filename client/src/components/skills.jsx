@@ -10,7 +10,7 @@ const skills = () => {
     <section id='skills' ref={skills}>
 
     <div className='flex flex-col pt-20 bg-slate-800' >
-          <div className='flex text-4xl justify-center font-Outfit'>
+          <div className='flex text-4xl text-slate-100 justify-center font-Outfit'>
               <h1>My Skills</h1>
           </div>
         <div className='flex flex-1 justify-around px-6'>

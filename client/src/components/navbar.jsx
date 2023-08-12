@@ -32,7 +32,7 @@ const navbar = () => {
         <div className=' sm:mt-5'>
             <div className = {navdrop ? ' px-4 pb-2 block  sm:-full      w-full bg-[#00cdda] sm:bg-[#00cdda] sm:flex sm:pr-10 sm:px-0 sm:pb-0' : 'hidden sm:flex sm:block pr-10'} >
                 {/* <div className='{`${navdrop}?"absolute":""`}'> */}
-                    <div className='text-white hover:bg-slate-600 rounded px-2 py-1 sm:pr-6 sm:hover:text-purple-700 sm:hover:bg-[#00cdda] flex justify-center'onClick={()=>{scrollTOSection('#home'); setNavdrop(!navdrop)}}>Home</div>
+                    <div className='text-white hover:bg-slate-600 rounded px-2 py-1 sm:pr-6 sm:hover:text-purple-700 sm:hover:bg-[#00cdda] flex justify-center'onClick={()=>{fun('#home'); setNavdrop(!navdrop)}}>Home</div>
                     <div className='text-white hover:bg-slate-600 rounded px-2 py-1 mt-1 sm:mt-0 sm:pr-6 sm:hover:text-purple-700 sm:hover:bg-[#00cdda] flex justify-center' onClick={()=>{fun('#about'); setNavdrop(!navdrop)}}>About</div>
                     <div className='text-white hover:bg-slate-600 rounded px-2 py-1 mt-1 sm:mt-0 sm:pr-6 sm:hover:text-purple-700 sm:hover:bg-[#00cdda] flex justify-center' onClick={()=>{fun('#projects'); setNavdrop(!navdrop)}}>Projects</div>
                     <div className='text-white hover:bg-slate-600 rounded px-2 py-1 mt-1 sm:mt-0 sm:pr-6 sm:hover:text-purple-700 sm:hover:bg-[#00cdda] flex justify-center' onClick={()=>{fun('#skills'); setNavdrop(!navdrop)}} >Skills</div>

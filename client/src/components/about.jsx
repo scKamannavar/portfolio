@@ -20,7 +20,7 @@ const about = () => {
             </div>
             <div className='flex  flex-1 justify-center text-center px-4 sm:px-10'>
               <div className='font-Outfit text:md sm:text-lg flex flex-col pb-10'>                  
-                <div className='flex-1 text-left bg-slate-100  p-4'>
+                <div className='flex-1 text-left bg-slate-100 w-auto h-full p-4'>
                   <div className='flex text-4xl justify-center'>
                     <h1>About Me</h1>
                   </div>
