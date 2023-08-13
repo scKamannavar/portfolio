@@ -15,7 +15,7 @@ const navbar = () => {
     //     // elementRef.scrollIntoView( { behavior: 'smooth', block: 'start' } );
     // }
   return (
-    <div className=' bg-[#00cdda] w-screen sm:w-full mt-0 fixed sm:flex sm:justify-between sm:pb-6 shadow-lg shadow-black z-10'>
+    <div className=' bg-[#00cdda] w-screen sm:w-full mt-0 fixed sm:flex sm:justify-between sm:pb-6 shadow-lg shadow-black z-50'>
         <div className='mb-0 sm:mb-2 h-20 sm:h-8 pt-1 sm:pt-0'>
             <div className='flex items-center justify-between '>
                 <div className='px-4 sm:pt-1 sm:pl-10'>

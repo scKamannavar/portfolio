@@ -1,5 +1,6 @@
 import React from 'react'
 import Avatar from '../assets/avata.png'
+import Mobui from '../assets/mobui.png'
 import { gsap } from "gsap";
 import 'animate.css';
 // import SplitType from 'split-type'
@@ -13,10 +14,14 @@ const hero = () => {
   return (
     <div id='home'>
        <div className=" flex flex-col sm:flex-row-reverse  pt-20 w-fill h-full sm:h-screen text-white bg-[url('https://images.pexels.com/photos/6956433/pexels-photo-6956433.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] bg-cover bg-no-repeat" >
-            <div className='flex-6 sm:flex sm:flex-row sm:justify-start sm:flex-1 '>
-                    <div className='flex h-full justify-center items-center '>
-                            <img className='w-auto h-[370px] sm:h-[500px] sm:w-[500px]   duration-700 hover:-translate-x-4 relative z-1 animate__animated animate__slideInDown sm:animate__slideInLeft' src={Avatar} alt="Avata" />
+            <div className='flex-6 sm:flex sm:flex-row sm:justify-start sm:flex-1 relative'>
+                    <div className='flex h-full justify-center items-center  z-1 transition ease-in-out delay-250   hover:scale-110 duration-1000 '>
+                            <img className='w-auto h-[370px] sm:h-[500px] sm:w-[500px] animate__animated animate__slideInDown sm:animate__slideInLeft sm:z-10' src={Avatar} alt="Avata" /> {/* animate__animated animate__slideInDown sm:animate__slideInLeft (animate.css ) */}
                     </div>
+                    {/* <div className='flex h-full justify-center items-center  z-1 transition ease-in-out delay-250   hover:scale-110 duration-1000 '>
+                            <img className='w-auto h-[150px] sm:h-[150px] sm:w-[70px] animate__animated animate__slideInDown sm:animate__slideInTop   sm:z-20' src={Mobui} alt="Avata" />
+                    </div> */}
+
             </div>
             < div  className='flex flex-col sm:pl-18 py-10 sm:pl-[10%] sm:pt-25 px-4  flex-1 justify-center sm:justify-center items-end '>
                     {/* <div className='flex-1 text-white flex justify-center items-center px-10 sm:px-0'>
@@ -26,8 +31,8 @@ const hero = () => {
                     </div> */}
                     <div className='flex flex-col'>
                       <div className='flex-1 text-white flex justify-center items-center sm:items-end px-10 sm:pb-0 animate__animated animate__zoomInUp '>
-                          <div className='text-left sm:pl-10'>
-                              <p  className='font-bold font-Outfit sm:text-6xl text-3xl text-center sm:text-center'><span className='text-2xl '>Hi there </span>I'm Sagar <span className='text-2xl duration-700 hover:-translate-x-4'>Creative Web </span> Developer <span className='text-2xl'>I believe in the power</span>  <span className='text-2xl'> of continuous</span> learning</p>
+                          <div className='text-left sm:pl-10 '>
+                              <p  className='font-bold font-Outfit sm:text-6xl text-3xl text-center sm:text-center '><span className='text-2xl     '>Hi there </span>I'm Sagar <span className='text-2xl duration-700 hover:-translate-x-4'>Creative Web </span> Developer <span className='text-2xl'>I believe in the power</span>  <span className='text-2xl'> of continuous</span> learning</p>
                           </div>
                       </div>
                       <div className='flex-1 text-white flex justify-center items-center px-10 animate__animated animate__zoomInDown '>
