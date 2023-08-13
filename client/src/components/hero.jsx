@@ -12,10 +12,10 @@ const hero = () => {
 
   return (
     <div id='home'>
-       <div className=" flex flex-col sm:flex-row-reverse pt-20 w-fill h-screen sm:h-screen text-white bg-[url('https://images.pexels.com/photos/6956433/pexels-photo-6956433.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] bg-cover bg-no-repeat" >
+       <div className=" flex flex-col sm:flex-row-reverse  pt-20 w-fill h-full sm:h-screen text-white bg-[url('https://images.pexels.com/photos/6956433/pexels-photo-6956433.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] bg-cover bg-no-repeat" >
             <div className='flex-6 sm:flex sm:flex-row sm:justify-start sm:flex-1 '>
                     <div className='flex h-full justify-center items-center '>
-                            <img className='w-auto h-40 sm:h-[500px] sm:w-[500px]   duration-700 hover:-translate-x-4 relative z-1 animate__animated animate__slideInDown sm:animate__slideInLeft' src={Avatar} alt="Avata" />
+                            <img className='w-auto h-[370px] sm:h-[500px] sm:w-[500px]   duration-700 hover:-translate-x-4 relative z-1 animate__animated animate__slideInDown sm:animate__slideInLeft' src={Avatar} alt="Avata" />
                     </div>
             </div>
             < div  className='flex flex-col sm:pl-18 py-10 sm:pl-[10%] sm:pt-25 px-4  flex-1 justify-center sm:justify-center items-end '>
@@ -36,7 +36,7 @@ const hero = () => {
                           </div>
                       </div>
                       <div className='flex-1 text-black flex justify-center items-center '>
-                        <button className= 'flex border-2 border-blue-400 hover:bg-blue-600  rounded-lg p-2 mt-2 font-bold font-Montser text-white animate__animated animate__slideInUp ' type="button">
+                        <button className= 'flex border-2 border-blue-400 hover:bg-blue-600 hover:border-blue-600  rounded-lg p-2 mt-2 font-bold font-Montser text-white animate__animated animate__slideInUp ' type="button">
                           Get CV <span className='animate-bounce pl-2 fill-white'><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5">
                                           < path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
                                       </svg>

@@ -30,7 +30,7 @@ const about = () => {
                   <p className='p-2'>Being more on the reserved side and finding comfort in quieter moments, I'm excited to break out of my shell and immerse myself in a system that surrounds me with fun, motivated individuals. I eagerly look forward to engaging with fellow developers, sharing insights, and learning from diverse perspectives.</p>
                 </div>
                 <div className='flex-1 flex justify-center text-left bg-slate-100 shadow-md p-2 pb-10'>
-                  <button className= 'h-10 flex bg-blue-400 hover:bg-blue-600  rounded-md p-2 mt-2 font-bold font-Montser text-white animate__animated animate__slideInUp ' type="button" onClick={()=>scrollTo('#contact')}>
+                  <button className= 'flex border-2 border-blue-400 hover:bg-blue-600 hover:border-blue-600  rounded-lg p-2 mt-2 font-bold font-Montser hover:text-white animate__animated animate__slideInUp ' type="button" onClick={()=>scrollTo('#contact')}>
                         Get in Touch
                   </button>
                 </div>
