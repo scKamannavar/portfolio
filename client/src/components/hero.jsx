@@ -16,7 +16,7 @@ const hero = () => {
        <div className=" flex flex-col sm:flex-row-reverse  pt-20 w-fill h-full sm:h-screen text-white bg-[url('https://images.pexels.com/photos/6956433/pexels-photo-6956433.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] bg-cover bg-no-repeat" >
             <div className='flex-6 sm:flex sm:flex-row sm:justify-start sm:flex-1 relative'>
                     <div className='flex h-full justify-center items-center  z-1 transition ease-in-out delay-250   hover:scale-110 duration-1000 '>
-                            <img className='w-auto h-[370px] sm:h-[500px] sm:w-[500px] animate__animated animate__slideInDown sm:animate__slideInLeft sm:z-10' src={Avatar} alt="Avata" /> {/* animate__animated animate__slideInDown sm:animate__slideInLeft (animate.css ) */}
+                            <img className='w-auto h-[360px] sm:h-[500px] sm:w-[500px] animate__animated animate__slideInDown sm:animate__slideInLeft sm:z-10' src={Avatar} alt="Avata" /> {/* animate__animated animate__slideInDown sm:animate__slideInLeft (animate.css ) */}
                     </div>
                     {/* <div className='flex h-full justify-center items-center  z-1 transition ease-in-out delay-250   hover:scale-110 duration-1000 '>
                             <img className='w-auto h-[150px] sm:h-[150px] sm:w-[70px] animate__animated animate__slideInDown sm:animate__slideInTop   sm:z-20' src={Mobui} alt="Avata" />
