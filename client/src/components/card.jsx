@@ -7,7 +7,7 @@ if(status === 'Yet to start') {statuscolor = 'bg-gray-500'}
 
   return (
     <div>     
-      <div className='flex flex-col relative h-[500px]  max-w-xs rounded-md overflow-hidden bg-white hover:bg-blue-200 shadow-lg shadow-gray-300 p-2 hover:-translate-y-2 duration-300 hover:scale-105 transition ease-in-out'>
+      <div className='flex flex-col relative h-[500px]  max-w-xs rounded-md overflow-hidden bg-white hover:bg-blue-200 shadow-lg shadow-gray-300 p-2  duration-300 hover:scale-105 transition ease-in-out'>
         <div>
             <img className='rounded-md' src="https://images.unsplash.com/photo-1572177812156-58036aae439c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt="" />
         </div>
