@@ -24,9 +24,9 @@ const projects = [
       id:2, name : 'Resume Builder SPA',
       description : 'An interactive Resume Builder offering users the ability to choose from various design templates and then save their customized resumes as downloadable PDFs.',
       status : 'Completed',
-      technologies : [],
+      technologies : ['React Js', 'TailwindCSS', 'FramerMotion'],
       gitLink : 'https://github.com/scKamannavar/ResumeBuilder/tree/master',
-      appLink : 'https://64fdd5ff07d1232d0e244c2a--magical-axolotl-d27158.netlify.app/',
+      appLink : 'https://magical-axolotl-d27158.netlify.app/',
       image : resumeBuilderImage,
     },
 

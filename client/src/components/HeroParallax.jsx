@@ -38,7 +38,7 @@ const HeroParallax = () => {
       </motion.div> */}
 
       
-      <motion.div style={{y:stars}} className={`absolute h-[150%] -mt-[100%]  sm:h-[300%] sm:-mt-[100%] inset-0 z-0 bg-bottom bg-repeat bg-parallaxStars`}>
+      <motion.div style={{y:stars}} className={`absolute  -mt-[100%]  h-[300%] sm:-mt-[100%] inset-0 z-0 bg-bottom bg-repeat bg-parallaxStars`}>
       </motion.div>
 
       <motion.div style={{y:moon}} className={`absolute h-full inset-0 z-[1] bg-bottom bg-cover bg-parallaxMoon bg-repeat`}>

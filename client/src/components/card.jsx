@@ -40,7 +40,7 @@ if(status === 'Yet to start') {statuscolor = 'bg-gray-500'}
           </div>
           <div className='flex justify-center flex-wrap text-white font-Outfit z-10'>
                 {technologies.map((tech)=>{
-                return  <div className='bg-slate-500 rounded-md px-1 m-1'>{tech}</div>
+                return  <div className='bg-slate-500 rounded-md p-1 m-1 text-sm'>{tech}</div>
                 })}
                 {/* <div className='bg-slate-500 rounded-md p-1 m-1'>Css</div>
                 <div className='bg-slate-500 rounded-md p-1 m-1'>Js</div>  */}
