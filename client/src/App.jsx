@@ -7,6 +7,10 @@ import About from './components/about'
 import Projects from './components/projects'
 import Skills from './components/skills'
 import Contact from './components/contact'
+import HeroParallax from './components/HeroParallax'
+import Experience from './components/Experience'
+import AboutMe from './components/AboutMe'
+import Education from './components/Education'
 
 function App() {
   return (
@@ -14,10 +18,16 @@ function App() {
     <div className=''>
     <Navbar/>
     </div>
-    <Hero/>
-    <About/>
+    <HeroParallax/>
+
+    <AboutMe/>
+    {/* <Hero/> */}
+    {/* <About/> */}
+
+    
+    <Experience/>
     <Projects/>
-    <Skills/>
+    <Education/>
     <Contact/>
     <Footer/>
   </div>

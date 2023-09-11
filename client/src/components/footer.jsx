@@ -7,7 +7,7 @@ const footer = () => {
   return (  
     <div>
 
-      <div className='flex flex-col h-full bg-[#00cdda] pb-4'>
+       <div className='flex flex-col h-full bg-[#00cdda] pb-4'> {/*bg-[#00cdda]} */}
         <div className='flex flex-1 p-6 justify-start'>
             <div className='pr-6  flex-7'>
               <span className='text-white hover:h-8'>

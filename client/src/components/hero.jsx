@@ -9,7 +9,7 @@ import 'animate.css';
 
 const hero = () => {
 
-  gsap.to( ".square", { rotate: 360 })
+  // gsap.to( ".square", { rotate: 360 })
 
   return (
     <div id='home'>
