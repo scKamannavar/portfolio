@@ -2,7 +2,7 @@ import React from 'react'
 
 const Experience = () => {
   return (
-    <>
+    <div id='experience'>
         <div className='flex text-4xl text-slate-800 pt-20 justify-center font-Outfit'>
             <h1>Experience</h1>
         </div>
@@ -24,7 +24,8 @@ const Experience = () => {
                                 <ul className='list-disc'>
                                     <li > Collaborated on the design and structure of the database, using SQL normalization techniques for optimal organization.</li>
                                     <li>Written and executed SQL queries to fetch and display data on the front end, incorporating sorting and filtering capabilities.</li>
-                                    <li>Incorporated the TinyMCE rich text editor into the dashboard of the Blog website, enhancing content creation and editing capabilities,  leading to increased user engagement.</li>
+                                    {/* <li>Incorporated the TinyMCE rich text editor into the dashboard of the Blog website, enhancing content creation and editing capabilities,  leading to increased user engagement.</li> */}
+                                    <li>worked on website projects ranging from e-commerce to news and education.</li>
                                     <li>Played a pivotal role in content curation for marketing and contributed to the design of brochures.</li>
                                     <li>Crafted eye-catching banners and website images on Canva, enhancing the visual appeal of the websites.</li>
                                 </ul> 
@@ -33,7 +34,7 @@ const Experience = () => {
 
             </div>
         </div>
-    </>
+    </div>
 
   )
 }

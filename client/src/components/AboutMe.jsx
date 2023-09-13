@@ -5,7 +5,7 @@ import SkillList from './SkillList'
 
 const AboutMe = () => {
   return (
-    <>
+    <div id='about'>
         <div className='flex text-4xl font-Outfit justify-center '>
             <h1>About Me</h1>
         </div>
@@ -18,7 +18,7 @@ const AboutMe = () => {
               <SkillList/>
           </div>
         </div>
-    </>
+    </div>
 
   )
 }

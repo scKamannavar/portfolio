@@ -2,14 +2,14 @@ import React from 'react'
 
 const Education = () => {
   return (
-    <>
+    <div id='education'>
     <div className='flex text-4xl text-slate-800 pt-20 justify-center font-Outfit'>
         <h1>Education</h1>
     </div>
     <div className='flex h-full  justify-center p-10 md:pl-32  font-Outfit'>
         <div className='flex flex-col w-full  h-fit md:w-[60%] md:h-fit items-start  border-l-2 border-blue-500 p-10 relative'>
             {/* Saperate experience block */}
-            <div className='mb-6 sm:w-full'>
+            <div className='mb-6 w-full'>
                 <div className='md:-ml-[160px] md:absolute'>
                     [2015-2020]
                 </div>
@@ -25,7 +25,7 @@ const Education = () => {
                 </div>
             </div>
 
-            <div className='mb-6 sm:w-full'>
+            <div className='mb-6 w-full'>
                 <div className='md:-ml-[160px] md:absolute'>
                     [2013-2015]
                 </div>
@@ -41,7 +41,7 @@ const Education = () => {
                             
                 </div>
             </div> 
-             <div className='mb-6 sm:w-full'>
+             <div className='mb-6 w-full'>
                 <div className='md:-ml-[160px] md:absolute'>
                     [2002-2013]
                 </div>
@@ -58,7 +58,7 @@ const Education = () => {
             </div>
         </div>
     </div>
-</>
+</div>
   )
 }
 
