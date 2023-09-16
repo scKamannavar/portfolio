@@ -59,7 +59,7 @@ const contact = () => {
         <h1>Contact</h1>
       </div>
          
-        <form className='flex flex-col h-full self-center rounded w-[85%] md:w-[60%] overflow-hidden shadow-md bg-black shadow-gray-400 md:m-4 mt-12 p-6 ' onSubmit={Submit} >
+        <form className='flex flex-col h-full self-center rounded w-[85%] lg:w-[60%] overflow-hidden shadow-md bg-black shadow-gray-400 md:m-4 mt-12 p-6 ' onSubmit={Submit} >
             <div class={ alertmes ? 'bg-blue-100 border-blue-600 border-2 text-blue-700 px-4  sm:mx-24 py-3 rounded relative ':'hidden' } role="alert">
                 <strong class="font-bold">{alertContent}</strong>
                 {/* <span class="block sm:inline">Will get back to you in no time.</span> */}
