@@ -34,7 +34,7 @@ const contact = () => {
     }
     const Submit = (e)=>{
         e.preventDefault(); 
-        // axios.post('https://portfolio-api-one-olive.vercel.app/sendMessage',{
+        // axios.post('https://portfolio-api-one-olive.vercel.app/sendMessage',{ //old link
         axios.post('https://portfolio-3l81v7gz2-sckamannavar.vercel.app/sendMessage',{
           name, email, bodym
         }).then(res =>{
