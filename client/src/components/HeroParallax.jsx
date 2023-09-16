@@ -15,9 +15,9 @@ const HeroParallax = () => {
   const naru = useTransform(scrollYProgress, [0,1], ["0%","1%"])
 
   const stars = useTransform(scrollYProgress, [0,1], ["0%","60%"])
-  const moon = useTransform(scrollYProgress, [0,1], ["0%","120%"])
+  const moon = useTransform(scrollYProgress, [0,1], ["0%","110%"])
   const mountain1 = useTransform(scrollYProgress, [0,1], ["0%","80%"])
-  const mountain2 = useTransform(scrollYProgress, [0,1], ["0%","60%"])
+  const mountain2 = useTransform(scrollYProgress, [0,1], ["0%","90%"])
   const grass1 = useTransform(scrollYProgress, [0,1], ["0%","50%"])
   const grass2 = useTransform(scrollYProgress, [0,1], ["0%","40%"])
   const grass3 = useTransform(scrollYProgress, [0,1], ["0%","35%"])
