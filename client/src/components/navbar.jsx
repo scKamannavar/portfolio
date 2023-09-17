@@ -3,8 +3,7 @@ import { useState, useEffect } from 'react'
 import Logo from '../assets/logo.png'
 import fun from '../constants/scrollTo';
 import hamIcon from '../assets/icons/ham.svg'
-import navElements from './navElements';
-import {motion} from 'framer-motion'
+
 
 const navbar = () => {
 
