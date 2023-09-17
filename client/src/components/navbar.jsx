@@ -49,7 +49,7 @@ const navbar = () => {
             </div>
         </div>
         <div className=' sm:mt-5'>
-            <div className = {`${navdrop ? 'px-4 pb-2 block w-full bg-[#00cdda] sm:bg-[#00cdda]  sm:-full  sm:flex sm:pr-10 sm:px-0 sm:pb-0' : 'hidden sm:flex sm:block pr-10'}`} >
+            <div className = {`${navdrop ? 'px-4 pb-2 block w-full bg-[#00cdda] sm:bg-inherit  sm:-full  sm:flex sm:pr-10 sm:px-0 sm:pb-0' : 'hidden  sm:flex sm:block pr-10'}`} >
                 {/* <div className='{`${navdrop}?"absolute":""`}'> */}
                     <div className='text-white hover:bg-slate-600 rounded px-2 py-1 sm:pr-6 sm:hover:text-purple-700 sm:hover:bg-transparent hover:cursor-pointer flex justify-center animate__animated animate__fadeInUp'onClick={()=>{fun('#home'); setNavdrop(!navdrop)}}>Home</div>
                     <div className='text-white hover:bg-slate-600 rounded px-2 py-1 mt-1 sm:mt-0 sm:pr-6 sm:hover:text-purple-700 sm:hover:bg-transparent hover:cursor-pointer flex justify-center animate__animated animate__fadeInUp' onClick={()=>{fun('#about'); setNavdrop(!navdrop)}}>About</div>
