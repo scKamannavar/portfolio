@@ -11,6 +11,7 @@ import HeroParallax from './components/HeroParallax'
 import Experience from './components/Experience'
 import AboutMe from './components/AboutMe'
 import Education from './components/Education'
+import ContactNew from './components/ContactNew'
 
 function App() {
   return (
@@ -28,8 +29,9 @@ function App() {
     <Experience/>
     <Projects/>
     <Education/>
-    <Contact/>
-    <Footer/>
+    {/* <Contact/> */}
+    <ContactNew/>
+    {/* <Footer/> */}
   </div>
   )
 }

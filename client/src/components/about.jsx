@@ -45,7 +45,7 @@ const about = () => {
                       download="SagarResme"
                       target="_blank"
                       rel="noreferrer"
-                      className= 'flex border-2 w-full justify-center border-blue-300 bg-blue-300 hover:bg-blue-600 hover:border-blue-600 h-12 rounded-lg p-2 mt-2 font-bold font-Montser transition-colors duration-700 hover:text-white animate__animated animate__slideInUp '
+                      className= 'flex border-2 w-full justify-center border-blue-500 bg-blue-500 hover:bg-blue-600 hover:border-blue-600 h-12 rounded-lg p-2 mt-2 font-bold font-Montser transition-colors duration-700 hover:text-white animate__animated animate__slideInUp '
                     >
                   <button>
                         Download CV
