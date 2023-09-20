@@ -16,9 +16,9 @@ import ContactNew from './components/ContactNew'
 function App() {
   return (
   <div>
-    <div className=''>
+  
     <Navbar/>
-    </div>
+   
     <HeroParallax/>
 
     <AboutMe/>

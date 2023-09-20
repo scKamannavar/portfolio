@@ -34,7 +34,7 @@ const navbar = () => {
 
   return (
     // bg-[#00cdda] navColorMob
-    <div className={`${navColor?'sm:bg-[#00cdda] shadow-2xl':'sm:bg-none'} ${navColorMob?'bg-[#00cdda]':'bg-none'} w-screen sm:w-full mt-0 fixed sm:flex sm:justify-between sm:pb-6 transition-all duration-1000 ease-in-out z-50`}>
+    <div className={`${navColor?'sm:bg-[#00cdda] shadow-2xl':'sm:bg-none'} ${navColorMob?'bg-[#00cdda]':'bg-none'} w-screen sm:w-full fixed top-0 sm:flex sm:justify-between sm:pb-6 transition-all duration-1000 ease-in-out z-50`}>
         <div className='mb-0 sm:mb-2 h-20 sm:h-8 pt-1 sm:pt-0'>
             <div className='flex items-center justify-between '>
                 <div className='px-4 sm:pt-1 sm:pl-10'>
@@ -51,13 +51,13 @@ const navbar = () => {
         <div className=' sm:mt-5'>
             <div className = {`${navdrop ? 'px-4 pb-2 block w-full bg-[#00cdda] sm:bg-inherit  sm:-full  sm:flex sm:pr-10 sm:px-0 sm:pb-0' : 'hidden  sm:flex sm:block pr-10'}`} >
                 {/* <div className='{`${navdrop}?"absolute":""`}'> */}
-                    <div className='text-white text-xl hover:bg-slate-600 rounded px-2 py-1 sm:pr-6 sm:hover:text-purple-700 sm:hover:bg-transparent hover:cursor-pointer flex justify-center animate__animated animate__fadeInUp'onClick={()=>{fun('#home'); setNavdrop(!navdrop)}}>Home</div>
-                    <div className='text-white text-xl hover:bg-slate-600 rounded px-2 py-1 mt-1 sm:mt-0 sm:pr-6 sm:hover:text-purple-700 sm:hover:bg-transparent hover:cursor-pointer flex justify-center animate__animated animate__fadeInUp' onClick={()=>{fun('#about'); setNavdrop(!navdrop)}}>About</div>
-                    <div className='text-white text-xl hover:bg-slate-600 rounded px-2 py-1 mt-1 sm:mt-0 sm:pr-6 sm:hover:text-purple-700 sm:hover:bg-transparent hover:cursor-pointer flex justify-center animate__animated animate__fadeInUp' onClick={()=>{fun('#experience'); setNavdrop(!navdrop)}}>Experience</div>
-                    <div className='text-white text-xl hover:bg-slate-600 rounded px-2 py-1 mt-1 sm:mt-0 sm:pr-6 sm:hover:text-purple-700 sm:hover:bg-transparent hover:cursor-pointer flex justify-center animate__animated animate__fadeInUp' onClick={()=>{fun('#projects'); setNavdrop(!navdrop)}}>Projects</div>
+                    <div className='text-white sm:text-xl hover:bg-slate-600 rounded px-2 py-1 sm:pr-6 sm:hover:text-purple-700 sm:hover:bg-transparent hover:cursor-pointer flex justify-center animate__animated animate__fadeInUp'onClick={()=>{fun('#home'); setNavdrop(!navdrop)}}>Home</div>
+                    <div className='text-white sm:text-xl hover:bg-slate-600 rounded px-2 py-1 mt-1 sm:mt-0 sm:pr-6 sm:hover:text-purple-700 sm:hover:bg-transparent hover:cursor-pointer flex justify-center animate__animated animate__fadeInUp' onClick={()=>{fun('#about'); setNavdrop(!navdrop)}}>About</div>
+                    <div className='text-white sm:text-xl hover:bg-slate-600 rounded px-2 py-1 mt-1 sm:mt-0 sm:pr-6 sm:hover:text-purple-700 sm:hover:bg-transparent hover:cursor-pointer flex justify-center animate__animated animate__fadeInUp' onClick={()=>{fun('#experience'); setNavdrop(!navdrop)}}>Experience</div>
+                    <div className='text-white sm:text-xl hover:bg-slate-600 rounded px-2 py-1 mt-1 sm:mt-0 sm:pr-6 sm:hover:text-purple-700 sm:hover:bg-transparent hover:cursor-pointer flex justify-center animate__animated animate__fadeInUp' onClick={()=>{fun('#projects'); setNavdrop(!navdrop)}}>Projects</div>
                     {/* <div className='text-white text-xl hover:bg-slate-600 rounded px-2 py-1 mt-1 sm:mt-0 sm:pr-6 sm:hover:text-purple-700 sm:hover:bg-black hover:cursor-pointer flex justify-center animate__animated animate__fadeInUp' onClick={()=>{fun('#skills'); setNavdrop(!navdrop)}} >Skills</div> */}
-                    <div className='text-white text-xl hover:bg-slate-600 rounded px-2 py-1 mt-1 sm:mt-0 sm:pr-6 sm:hover:text-purple-700 sm:hover:bg-transparent hover:cursor-pointer flex justify-center animate__animated animate__fadeInUp' onClick={()=>{fun('#education'); setNavdrop(!navdrop)}} >Education</div>
-                    <div className='text-white text-xl hover:bg-slate-600 rounded px-2 py-1 mt-1 sm:mt-0 sm:pr-6 sm:hover:text-purple-700 sm:hover:bg-transparent hover:cursor-pointer flex justify-center animate__animated animate__fadeInUp'onClick={()=>{fun('#contact'); setNavdrop(!navdrop)}}>Contact</div>
+                    <div className='text-white sm:text-xl hover:bg-slate-600 rounded px-2 py-1 mt-1 sm:mt-0 sm:pr-6 sm:hover:text-purple-700 sm:hover:bg-transparent hover:cursor-pointer flex justify-center animate__animated animate__fadeInUp' onClick={()=>{fun('#education'); setNavdrop(!navdrop)}} >Education</div>
+                    <div className='text-white sm:text-xl hover:bg-slate-600 rounded px-2 py-1 mt-1 sm:mt-0 sm:pr-6 sm:hover:text-purple-700 sm:hover:bg-transparent hover:cursor-pointer flex justify-center animate__animated animate__fadeInUp'onClick={()=>{fun('#contact'); setNavdrop(!navdrop)}}>Contact</div>
                     
                 {/* </div> */}
             </div>
