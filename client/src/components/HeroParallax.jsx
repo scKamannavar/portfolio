@@ -27,9 +27,9 @@ const HeroParallax = () => {
   console.log('scroll')
   console.log('scroll',scrollYProgress)
   return (
-    <div ref={ref} id='home' className='w-[vw] h-[106vh] relative flex flex-col overflow-hidden'>
+    <div ref={ref} id='home' className='w-[vw] h-[106vh] md:h-[60vh] lg:h-[106vh] relative flex flex-col overflow-hidden'>
 
-      <motion.h1 style={{y:text}} className={` font-Outfit font-bold pt-[40%] sm:text-6xl text-4xl z-[5] self-center text-white sm:pt-[10%] sm:justify-center h-screen `}>
+      <motion.h1 style={{y:text}} className={` font-Outfit font-bold pt-[40%] md:text-6xl text-4xl z-[5] self-center text-white md:pt-[10%] sm:justify-center h-screen `}>
         Hello i am Sagar
       </motion.h1>
 

@@ -23,7 +23,7 @@ const about = () => {
             <div className='flex  flex-1 justify-center text-center'>
               <div className='font-Outfit text:sm sm:text-lg flex flex-col pb-10'>                  
                 <motion.div className='flex-1 text-left bg-none w-[100%] h-full p-4 '
-                  initial={{ opacity:0,x:-1000 }}
+                  initial={{ opacity:0,x:0 }}
                   animate={{ opacity:1,x:0  }}
                   transition={{ ease: "easeOut", duration: 2 }}
                   >
@@ -36,8 +36,8 @@ const about = () => {
                     <p className='p-2'>I am Sagar a passionate and creative web developer who is dedicated to creating exceptional web solutions.  I'm constantly on the lookout for new opportunities in the fast-paced field of web development, eager to bring new ideas and designs to life.  </p>
                     {/* <p className='p-2'>Being more on the reserved side and finding comfort in quieter moments, I'm excited to break out of my shell and immerse myself in a system that surrounds me with fun, motivated individuals. I eagerly look forward to engaging with fellow developers, sharing insights, and learning from diverse perspectives.</p> */}
                 </motion.div>
-                <div className='flex-1 flex justify-center gap-2 text-left bg-none shadow-none p-2 px-6'>
-                  <button className= 'flex border-2 w-full justify-center border-blue-400 hover:bg-blue-600 hover:border-blue-600 h-12 rounded-lg p-2 mt-2 font-bold font-Montser transition-colors duration-700 hover:text-white animate__animated animate__slideInUp ' type="button" onClick={()=>scrollTo('#contact')}>
+                <div className='flex-1 flex justify-center gap-2 text-left bg-none shadow-none p-2 px-6 sm:text-xs lg:text-md'>
+                  <button className= 'flex border-2 w-full justify-center items-center border-blue-400 hover:bg-blue-600 hover:border-blue-600 h-12 rounded-lg p-2 mt-2 font-bold font-Montser transition-colors duration-700 hover:text-white animate__animated animate__slideInUp ' type="button" onClick={()=>scrollTo('#contact')}>
                         Get in Touch
                   </button>
                   <a
