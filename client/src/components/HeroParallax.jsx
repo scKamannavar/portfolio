@@ -22,7 +22,7 @@ const HeroParallax = () => {
   const grass2 = useTransform(scrollYProgress, [0,1], ["0%","40%"])
   const grass3 = useTransform(scrollYProgress, [0,1], ["0%","35%"])
   const grass4 = useTransform(scrollYProgress, [0,1], ["0%","-2%"])
-  const cloud = useTransform(scrollYProgress, [0,1], ["1%","0%"])
+  const cloud = useTransform(scrollYProgress, [0,1], ["0%","0.5%"])
 
   console.log('scroll')
   console.log('scroll',scrollYProgress)
