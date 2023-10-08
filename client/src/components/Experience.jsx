@@ -7,7 +7,7 @@ const Experience = () => {
             <h1>Experience</h1>
         </div>
         <div className='flex h-full  justify-center pl-6 md:p-10 md:pl-24 font-Outfit'>
-            <div className='flex flex-col w-full  h-fit md:w-[60%] md:h-fit items-start  border-l-2 border-blue-500 p-6 md:p-10 relative'>
+            <div className='flex flex-col w-full  h-fit md:w-[90%] md:h-fit items-start  border-l-2 border-blue-500 p-6 md:p-10 relative'>
                 {/* Saperate experience block */}
                 <div className='mb-6'>
                     <div className='md:-ml-[160px] md:absolute'>

@@ -14,6 +14,8 @@ export default {
         'forest': "url('/src/assets/animaeForest.png')",
         'naruto': "url('/src/assets/naruto.png')",
         'parallaxCloud': "url('/src/assets/parallax/Cloud.png')",
+        'parallaxCloudThreeSides': "url('/src/assets/parallax/CloudThreeSides.png')",
+        'parallaxCloudAllSides': "url('/src/assets/parallax/CloudAllsides.png')",
         'parallaxGrass1': "url('/src/assets/parallax/Grass1.png')",
         'parallaxGrass2': "url('/src/assets/parallax/Grass2.png')",
         'parallaxGrass3': "url('/src/assets/parallax/Grass3.png')",

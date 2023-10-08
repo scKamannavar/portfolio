@@ -34,7 +34,7 @@ const navbar = () => {
 
   return (
     // bg-[#00cdda] navColorMob
-    <div className={`${navColor?'md:bg-[#00cdda] shadow-2xl':'md:bg-none'} ${navColorMob?'bg-[#00cdda]':'bg-none'} w-screen md:w-full fixed top-0 md:flex md:justify-between md:pb-6 transition-all duration-1000 ease-in-out z-50`}>
+    <div className={`${navColor?'md:bg-[#00cdda] shadow-2xl':'md:bg-none'} ${navColorMob?'bg-[#00cdda]':'bg-none'} w-screen md:w-[100%] fixed top-0 md:flex md:justify-between md:pb-6 transition-all duration-1000 ease-in-out z-50`}>
         <div className='mb-0 md:mb-2 h-20 md:h-8 pt-1 md:pt-0'>
             <div className='flex items-center justify-between '>
                 <div className='px-4 md:pt-1 md:pl-10'>

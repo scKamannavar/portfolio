@@ -6,10 +6,10 @@ import SkillList from './SkillList'
 const AboutMe = () => {
   return (
     <div id='about'>
-        <div className='flex text-4xl font-Outfit justify-center '>
-            <h1>About Me</h1>
-        </div>
-        <div className='flex flex-col sm:flex-row w-full h-fit items-center bg-white px-4 lg:px-32'> 
+        {/* <div className='flex text-5xl font-Outfit font-extrabold justify-center backdrop-brightness-125'>
+            <h1 className=''>Hi, i'm Sagar</h1>
+        </div> */}
+        <div className='flex flex-col w-full h-full items-start bg-white px-4 lg:px-2'> 
           <div className='flex-1'>
               <About/>
           </div>

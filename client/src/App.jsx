@@ -1,38 +1,25 @@
 import { useState } from 'react'
 import './App.css'
-import Navbar from './components/navbar'
-import Hero from './components/hero'
-import Footer from './components/footer'
-import About from './components/about'
-import Projects from './components/projects'
-import Skills from './components/skills'
-import Contact from './components/contact'
-import HeroParallax from './components/HeroParallax'
-import Experience from './components/Experience'
-import AboutMe from './components/AboutMe'
-import Education from './components/Education'
-import ContactNew from './components/ContactNew'
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './pages/home'
+import Blog from './pages/blog'
 
 function App() {
   return (
-  <div>
-  
-    <Navbar/>
-   
-    <HeroParallax/>
+    <div>
+        <Router>
+          <Routes>
 
-    <AboutMe/>
-    {/* <Hero/> */}
-    {/* <About/> */}
-
+            <Route path="/" exact element={<Home/>} />
+            {/* <Route path="/about" component={About} />
+            <Route path="/portfolio" component={Portfolio} />
+            <Route path="/blog" component={Blog} /> */}
+            <Route path="/blog"  exact element={<Blog/>}/> 
+          </Routes>
+      </Router>
+    </div>
     
-    <Experience/>
-    <Projects/>
-    <Education/>
-    {/* <Contact/> */}
-    <ContactNew/>
-    {/* <Footer/> */}
-  </div>
   )
 }
 
