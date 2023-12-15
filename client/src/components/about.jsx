@@ -1,7 +1,7 @@
 import React,{ useEffect, useRef } from 'react'
 import scrollTo from '../constants/scrollTo'
 import { delay, motion } from "framer-motion"
-import ExamplePdf from '../assets/resume/Resume.pdf'
+import ExamplePdf from '../assets/resume/this_SagarResume.pdf'
 import { InView } from 'react-intersection-observer';
 import { gsap } from 'gsap'
 
@@ -44,7 +44,15 @@ const about = () => {
                       Now, I'm excited to connect, learn, and contribute to new digital adventures. Let's Connect!
                      </p>
                     {/* <p className='p-2'>A passionate and creative <span className='text-black text-3xl'>web developer</span> who is dedicated to creating exceptional web solutions.  I'm constantly on the lookout for new opportunities in the field of web development, eager to bring new ideas and designs to life.  </p> */}
-                    <h1 className='p-2'>You can <a href="" className='text-blue-500 underline'>Download</a> My CV</h1>
+                    <h1 className='p-2'>You can 
+                    <a 
+                      href={ExamplePdf}
+                      download="SagarResme"
+                      target="_blank"
+                      rel="noreferrer"className='text-blue-500 underline'>
+                      Download
+                    </a>
+                     My CV</h1>
                     {/* <p className='p-2'>Being more on the reserved side and finding comfort in quieter moments, I'm excited to break out of my shell and immerse myself in a system that surrounds me with fun, motivated individuals. I eagerly look forward to engaging with fellow developers, sharing insights, and learning from diverse perspectives.</p> */}
                 </motion.div>
                 {/*Old Buttons Download CV and Contact */}
