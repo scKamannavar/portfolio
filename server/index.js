@@ -8,23 +8,14 @@ const app = express();
 require('dotenv').config()
 
 const PORT = process.env.PORT || 4000;
-
-app.use(cors(
-// <<<<<<< HEAD
-    // {
-    //     origin : [""],
-    //     method : ["POST", "GET"],
-    //     credentials : true
-    // }
-// =======
-    {
-        origin : ["https://portfolio-sagarck.vercel.app"],
-        method : ["POST", "GET"],
-        credentials : true
-    }
-// >>>>>>> fda2edc19181764b6167f64443740dee7bcee663
-))
 app.use(express.json())
+app.use((req, res, next) => {
+    res.setHeader("Access-Control-Allow-Origin", "https://127.0.0.1:3000");
+    res.setHeader("Access-Control-Allow-Methods", "POST, GET, PUT");
+    res.setHeader("Access-Control-Allow-Headers", "Content-Type");
+    next();
+  })
+
 
 // mongoose.connect("mongodb://127.0.0.1:27017/Portfolio");
 
