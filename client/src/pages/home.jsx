@@ -12,6 +12,7 @@ import NavbarMininal from '../components/NavbarMininal'
 import Navbar from '../components/navbar'
 import ProjectsMinimal from '../components/ProjectsMinimal'
 import ExperienceMinimal from '../components/ExperienceMinimal'
+import ApiCallButton from '../components/ApiCallButton'
 
 const home = () => {
   return (
@@ -34,6 +35,7 @@ const home = () => {
             {/* <ExperienceMinimal/>
             <Experience/> */}
             <ProjectsMinimal/>
+            <ApiCallButton/>
             {/* <Projects/> */}
             {/* <Education/> */}
             {/* <Contact/> */}
