@@ -46,7 +46,7 @@ mongoose.connect(dbUrl,connectionParams)
 app.get("/",(req,res)=>{
     res.json('Hello, Nothing else on this route... Just me and my blogposts')
 })
-app.get("/random",(req,res)=>{
+app.get("/random/",(req,res)=>{
     res.json('Hello, Randomness')
 })
 
