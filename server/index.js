@@ -46,6 +46,9 @@ mongoose.connect(dbUrl,connectionParams)
 app.get("/",(req,res)=>{
     res.json('Hello, Nothing else on this route... Just me and my blogposts')
 })
+app.get("/random",(req,res)=>{
+    res.json('Hello, Randomness')
+})
 
 app.get('/blog/:id', async (req, res) => {
     const blog = await BlogPostModal.findById(req.params.id);
