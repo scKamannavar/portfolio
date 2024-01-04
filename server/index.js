@@ -43,11 +43,14 @@ mongoose.connect(dbUrl,connectionParams)
     console.log(err)
 })
 //Atlaas
-// app.get("/",(req,res)=>{
-//     res.json('Hello, Nothing else on this route... Just me and my blogposts and some tacnhical posts yes')
-// })
-app.get("/",(req,res)=>{
+
+app.get("/blog",(req,res)=>{
     res.json('Hello, Randomness')
+})
+
+
+app.get("/",(req,res)=>{
+    res.json('Hello, Nothing else on this route... Just me and my blogposts and some tacnhical posts yes')
 })
 
 app.get('/blog/:id', async (req, res) => {
