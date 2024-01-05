@@ -59,7 +59,7 @@ app.get('/allBlogs/:category', async (req, res) => {
     if (!filteredBlogs) {
       return res.status(404).json({ error: 'Blog not found' });
     }
-    res.json(blog);
+    res.json(filteredBlogs);
   });
 
   app.get('/allBlogs', async (req, res) => {
