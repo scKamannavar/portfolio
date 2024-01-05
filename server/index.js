@@ -52,6 +52,15 @@ app.get('/blog/:id', async (req, res) => {
     }
     res.json(blog);
   });
+app.get('/allBlogs/:category', async (req, res) => {
+  const { category } = req.params
+  const blog = await BlogPostModal.find();
+  const filteredBlogs = blog.filter(blog => blog.category === category);
+    if (!filteredBlogs) {
+      return res.status(404).json({ error: 'Blog not found' });
+    }
+    res.json(blog);
+  });
 
   app.get('/allBlogs', async (req, res) => {
     const blog = await BlogPostModal.find();
