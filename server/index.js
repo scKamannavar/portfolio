@@ -52,6 +52,14 @@ app.get('/blog/:id', async (req, res) => {
     }
     res.json(blog);
   });
+
+  app.get('/allBlogs', async (req, res) => {
+    const blog = await BlogPostModal.find();
+    if (!blog) {
+      return res.status(404).json({ error: 'Blog not found' });
+    }
+    res.json(blog);
+  });
 // app.post("/sendMessage", (req, res)=>{
 //     MessageModel.create(req.body)
 //     .then(m => {
