@@ -35,7 +35,7 @@ const home = () => {
             {/* <ExperienceMinimal/>
             <Experience/> */}
             <ProjectsMinimal/>
-            <ApiCallButton/>
+            {/* <ApiCallButton/> */}
             {/* <Projects/> */}
             {/* <Education/> */}
             {/* <Contact/> */}
