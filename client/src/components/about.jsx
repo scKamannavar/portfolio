@@ -1,7 +1,7 @@
 import React,{ useEffect, useRef } from 'react'
 import scrollTo from '../constants/scrollTo'
 import { delay, motion } from "framer-motion"
-import ExamplePdf from '../assets/resume/this_SagarResume.pdf'
+import ExamplePdf from '../assets/resume/this/SagarcK_CV.pdf'
 import { InView } from 'react-intersection-observer';
 import { gsap } from 'gsap'
 
@@ -46,6 +46,7 @@ const about = () => {
                     {/* <p className='p-2'>A passionate and creative <span className='text-black text-3xl'>web developer</span> who is dedicated to creating exceptional web solutions.  I'm constantly on the lookout for new opportunities in the field of web development, eager to bring new ideas and designs to life.  </p> */}
                     <h1 className='p-2'>You can 
                     <a 
+                      
                       href={ExamplePdf}
                       download="SagarResme"
                       target="_blank"
